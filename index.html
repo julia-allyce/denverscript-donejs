@@ -583,9 +583,14 @@ pre {
   background-color: rgba(5, 152, 196, 0.8);
 }
 
+.slide.blue a {
+  color: #fff;
+}
+
 .slide.dark-grey .slide-content {
   background-color: rgba(33, 38, 40, 0.8);
 }
+
 
 ul {
   list-style: square;
@@ -730,19 +735,26 @@ h6 {
 </blockquote>
 </section>
   </div>
-  <div class="slide hidden" id="slide-11">
+  <div class="slide hidden  centered" id="slide-11">
     <section class="slide-content"><h2 id="server-side-rendering">Server Side Rendering</h2>
+<p><img src="img/ssr.png" style="width: 80%;" alt="donejs init" /></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-12">
     <section class="slide-content"><h2 id="progressively-loading-optimized-bundles">Progressively Loading Optimized Bundles</h2>
 </section>
   </div>
-  <div class="slide hidden" id="slide-13">
+  <div class="slide hidden  centered" id="slide-13">
     <section class="slide-content"><h2 id="content-delivery-networks">Content Delivery Networks</h2>
+<p><img src="img/no-cdn.gif" style="max-width: 80%;" alt="Deploying without a CDN" /></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-14">
+  <div class="slide hidden  centered" id="slide-14">
+    <section class="slide-content"><h2 id="content-delivery-networks">Content Delivery Networks</h2>
+<p><img src="img/with-cdn.gif" style="max-width: 80%;" alt="Deploying with a CDN" /></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-15">
     <section class="slide-content"><h2 id="npm-and-hot-module-swapping">NPM and Hot-Module Swapping</h2>
 <blockquote>
 <p>npm install bootstrap --save</p>
@@ -764,29 +776,7 @@ h6 {
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
 </section>
   </div>
-  <div class="slide hidden  centered" id="slide-15">
-    <section class="slide-content"><h2 id="server-side-rendering">Server Side Rendering</h2>
-<p><img src="img/ssr.png" style="width: 80%;" alt="donejs init" /></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-16">
-    <section class="slide-content"><h2 id="real-time">Real-time</h2>
-<blockquote>
-<p>npm install steal-socket.io --save</p>
-</blockquote>
-<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> io <span class="hljs-keyword">from</span> <span class="hljs-string">'steal-socket.io'</span>;
-
-<span class="hljs-keyword">const</span> socket = io(<span class="hljs-string">'http://chat.donejs.com'</span>);
-
-socket.on(<span class="hljs-string">'messages created'</span>,
-  message =&gt; messageConnection.createInstance(message));
-socket.on(<span class="hljs-string">'messages updated'</span>,
-  message =&gt; messageConnection.updateInstance(message));
-socket.on(<span class="hljs-string">'messages removed'</span>,
-  message =&gt; messageConnection.destroyInstance(message));</code></pre>
-</section>
-  </div>
-  <div class="slide hidden  color hero light-grey" id="slide-17">
+  <div class="slide hidden  color hero light-grey" id="slide-16">
     <section class="slide-content"><h2 id="desktop-and-mobile-builds">Desktop and Mobile Builds</h2>
 <p><img src="img/desktop-mobile.gif" style="float: right; margin-top: 1em;margin-right: 5em; width: 45%;" alt="donejs init" /></p>
 <h4 id="ios-android-cordova-">iOS/Android (Cordova)</h4>
@@ -801,7 +791,18 @@ socket.on(<span class="hljs-string">'messages removed'</span>,
 </blockquote>
 </section>
   </div>
-  <div class="slide hidden  presenter hero color dark-grey wide-list" id="slide-18">
+  <div class="slide hidden  hero color blue centered" id="slide-17">
+    <section class="slide-content"><h2 id="learn-more">Learn More</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/24U0kvpMVWQ" frameborder="0" allowfullscreen></iframe>
+
+<p><a href="https://youtu.be/24U0kvpMVWQ">High Performance Apps with DoneJS</a></p>
+</section>
+  </div>
+  <div class="slide hidden  hero color light-grey" id="slide-18">
+    <section class="slide-content"><h1 id="donejs-training-">DoneJS Training!</h1>
+</section>
+  </div>
+  <div class="slide hidden  presenter hero color dark-grey wide-list" id="slide-19">
     <section class="slide-content"><h2 id="the-end-">The End.</h2>
 <div>
 <div class="bio">

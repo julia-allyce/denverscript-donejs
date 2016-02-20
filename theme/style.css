@@ -224,9 +224,14 @@ pre {
   background-color: rgba(5, 152, 196, 0.8);
 }
 
+.slide.blue a {
+  color: #fff;
+}
+
 .slide.dark-grey .slide-content {
   background-color: rgba(33, 38, 40, 0.8);
 }
+
 
 ul {
   list-style: square;

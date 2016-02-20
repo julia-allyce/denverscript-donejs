@@ -106,17 +106,28 @@ style: style.css
 
 > donejs init MY-AMAZING-APPLICATION
 
---
+-- centered
 
 ## Server Side Rendering
+
+<img src="img/ssr.png" style="width: 80%;" alt="donejs init" />
 
 --
 
 ## Progressively Loading Optimized Bundles
 
---
+-- centered
 
 ## Content Delivery Networks
+
+<img src="img/no-cdn.gif" style="max-width: 80%;" alt="Deploying without a CDN" />
+
+-- centered
+
+## Content Delivery Networks
+
+<img src="img/with-cdn.gif" style="max-width: 80%;" alt="Deploying with a CDN" />
+
 --
 
 ## NPM and Hot-Module Swapping
@@ -141,31 +152,6 @@ style: style.css
 </div>
 ```
 
--- centered
-
-## Server Side Rendering
-
-<img src="img/ssr.png" style="width: 80%;" alt="donejs init" />
-
---
-
-## Real-time
-
-> npm install steal-socket.io --save
-
-```javascript
-import io from 'steal-socket.io';
-
-const socket = io('http://chat.donejs.com');
-
-socket.on('messages created',
-  message => messageConnection.createInstance(message));
-socket.on('messages updated',
-  message => messageConnection.updateInstance(message));
-socket.on('messages removed',
-  message => messageConnection.destroyInstance(message));
-```
-
 -- color hero light-grey
 
 ## Desktop and Mobile Builds
@@ -183,6 +169,17 @@ socket.on('messages removed',
 > donejs add nw
 
 > donejs build nw
+
+-- hero color blue centered
+## Learn More
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/24U0kvpMVWQ" frameborder="0" allowfullscreen></iframe>
+
+[High Performance Apps with DoneJS](https://youtu.be/24U0kvpMVWQ)
+
+-- hero color light-grey
+# DoneJS Training!
+
 
 -- presenter hero color dark-grey wide-list
 ## The End.
