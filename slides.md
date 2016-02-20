@@ -9,7 +9,7 @@ style: style.css
 
 <img src="img/donejs-logo-white.svg" style="width: 80%; margin-top: 3em;" alt="Donejs">
 
-# VanJS, January 18, 2016
+# DenverScript, February 23, 2016
 
 -- color dark-grey hero centered
 <div style="margin-top:3em">
@@ -61,7 +61,27 @@ style: style.css
 
 <img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
 
---
+-- centered
+
+## Why is History Important?
+
+<img src="img/release-history.jpg" style="width: 70%;" alt="Release History">
+
+<small>Source: <em>[Longevity (or Lack Thereof) in JavaScript Frameworks](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/)</em></small>
+
+-- hero color blue wide-list
+
+## How Do We Do It?
+
+- It's our business model
+ - Building amazing applications for our clients<br> using our tools!
+- Enterprise Clients
+ - Want long term stability and reliability
+- Hard work and persistence
+
+-- color light-grey hero wide-list
+
+## What's in the box...
 
 - Open Source JavaScript framework (MIT)
 - Backend services agnostic
@@ -84,8 +104,19 @@ style: style.css
 
 > npm install donejs -g
 
-> donejs init donejs-chat
+> donejs init MY-AMAZING-APPLICATION
 
+--
+
+## Server Side Rendering
+
+--
+
+## Progressively Loading Optimized Bundles
+
+--
+
+## Content Delivery Networks
 --
 
 ## NPM and Hot-Module Swapping
@@ -135,7 +166,7 @@ socket.on('messages removed',
   message => messageConnection.destroyInstance(message));
 ```
 
---
+-- color hero light-grey
 
 ## Desktop and Mobile Builds
 
@@ -152,47 +183,6 @@ socket.on('messages removed',
 > donejs add nw
 
 > donejs build nw
-
--- centered
-
-## Why is History Important?
-
-<img src="img/release-history.jpg" style="width: 70%;" alt="Release History">
-
-<small>Source: <em>[Longevity (or Lack Thereof) in JavaScript Frameworks](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/)</em></small>
-
--- hero color blue wide-list
-
-## How Do We Do It?
-
-- It's our business model
- - Building amazing applications for our clients<br> using our tools!
-- Enterprise Clients
- - Want long term stability and reliability
-- Hard work and persistence
-
-
--- hero color dark-grey wide-list
-
-## Real Talk: Its Not Been Easy
-
-- Documentation is hard
- - Empathizing with our users has been a weak point
- - Explaining _why_ not just _how_
-- Being old and cool is hard
- - We don't look _cool_
- - We have a small team and small budget for marketing
-- We have to market to our clients, which is different than marketing to developers
-
--- hero color blue wide-list
-
-## Rallying the JS Community
-
-- Selling the whole pie is harder than just a slice
-- Getting the attention of passionate early adopters is essential
-
-
-
 
 -- presenter hero color dark-grey wide-list
 ## The End.
