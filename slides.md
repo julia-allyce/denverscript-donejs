@@ -192,9 +192,26 @@ socket.on('messages removed',
 - Getting the attention of passionate early adopters is essential
 
 
+
+
 -- presenter hero color dark-grey wide-list
 ## The End.
 <div>
+<div class="bio">
+
+
+![DoneJS](/img/flag.png)
+
+<h2>DoneJS</h2>
+<ul>
+  <li>[<i class="fa fa-github"></i> donejs](https://github.com/donejs/donejs)</li>
+  <li>[<i class="fa fa-twitter"></i> @donejs](http://twitter.com/donejs)</li>
+</ul>
+<ul>
+  <li>[<i class="fa fa-comment"></i> gitter.im/donejs/donejs](https://gitter.im/donejs/donejs)</li>
+</ul>
+</div>
+
 <div class="bio">
 
 ![Julia Allyce](http://gravatar.com/avatar/51d3dd361a66507e9f4e8232e69b7d99?s=200)
@@ -206,15 +223,6 @@ socket.on('messages removed',
 </ul>
 </div>
 
-<div class="bio">
-![David Luecke](http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200)
-
-<h2>David Luecke</h2>
-<ul>
-  <li>[<i class="fa fa-github"></i> daffl](https://github.com/daffl)</li>
-  <li>[<i class="fa fa-twitter"></i> @daffl](http://twitter.com/daffl)</li>
-</ul>
-</div>
 </div>
 
-<h2 style="margin-top: 1em;">[http://julia-allyce.github.io/vanjs-donejs/](http://julia-allyce.github.io/vanjs-donejs/)</h2>
+<h2 style="margin-top: 1em; clear:both">[http://julia-allyce.github.io/vanjs-donejs/](http://julia-allyce.github.io/denverscript-donejs/)</h2>
