@@ -12,6 +12,9 @@ style: style.css
 # DenverScript, February 23, 2016
 
 -- color dark-grey hero centered
+<h1 style="font-size: 4em">🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥😭🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥</h1>
+
+-- color dark-grey hero centered
 <div style="margin-top:3em">
 <h1>Performance</h1>
 <h1>Maintainability</h1>
@@ -106,15 +109,26 @@ style: style.css
 
 > donejs init MY-AMAZING-APPLICATION
 
+## Other things...
+
+> donejs develop
+
+> donejs test
+
+> donejs build
+
+> donejs deploy
+
 -- centered
 
 ## Server Side Rendering
 
 <img src="img/ssr.png" style="width: 80%;" alt="donejs init" />
 
---
-
-## Progressively Loading Optimized Bundles
+-- centered color hero blue
+<div style="margin-top: 5em">
+  <h1>Progressively Loading Optimized Bundles</h1>
+</div>
 
 -- centered
 
@@ -128,29 +142,6 @@ style: style.css
 
 <img src="img/with-cdn.gif" style="max-width: 80%;" alt="Deploying with a CDN" />
 
---
-
-## NPM and Hot-Module Swapping
-
-> npm install bootstrap --save
-
-```html
-<can-import from="bootstrap/less/bootstrap.less!" />
-<can-import from="donejs-chat/styles.less!" />
-<can-import from="donejs-chat/app" export-as="viewModel" />
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
-      <h1 class="page-header text-center">
-        <img src="http://donejs.com/static/img/donejs-logo-white.svg"
-          alt="DoneJS logo" style="width: 100%;" />
-        <br>Chat
-      </h1>
-    </div>
-  </div>
-</div>
-```
 
 -- color hero light-grey
 
@@ -178,7 +169,9 @@ style: style.css
 [High Performance Apps with DoneJS](https://youtu.be/24U0kvpMVWQ)
 
 -- hero color light-grey
+<div style="margin-top: 3em"></div>
 # DoneJS Training!
+## julia at bitovi.com
 
 
 -- presenter hero color dark-grey wide-list
@@ -212,4 +205,4 @@ style: style.css
 
 </div>
 
-<h2 style="margin-top: 1em; clear:both">[http://julia-allyce.github.io/vanjs-donejs/](http://julia-allyce.github.io/denverscript-donejs/)</h2>
+<h2 style="margin-top: 1em; clear:both">[http://julia-allyce.github.io/denverscript-donejs/](http://julia-allyce.github.io/denverscript-donejs/)</h2>
