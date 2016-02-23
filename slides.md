@@ -202,7 +202,5 @@ style: style.css
   <li>[<i class="fa fa-twitter"></i> @julia_allyce](http://twitter.com/julia_allyce)</li>
 </ul>
 </div>
-
 </div>
-
 <h2 style="margin-top: 1em; clear:both">[http://julia-allyce.github.io/denverscript-donejs/](http://julia-allyce.github.io/denverscript-donejs/)</h2>
